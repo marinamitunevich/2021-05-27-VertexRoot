@@ -28,7 +28,7 @@ class TreeServiceTest {
         Vertex v6 = new Vertex(v7, null,2);
         Vertex v4 = new Vertex(v5,v6,1);
         Vertex root = new Vertex(v2,v4,3); //root
-        assertEquals(4,treeService.getHeight(root));
+        assertEquals(3,treeService.getHeight(root));
 
     }
     @Test

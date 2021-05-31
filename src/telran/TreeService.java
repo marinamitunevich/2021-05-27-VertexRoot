@@ -7,7 +7,7 @@ public class TreeService {
      */
     public int getHeight(Vertex root) {
         if (root == null) {
-            return 0;
+            return -1;
         } else {
             return Integer.max(getHeight(root.left), getHeight(root.right)) + 1;
         }
